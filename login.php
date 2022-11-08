@@ -12,7 +12,7 @@ require 'C:\wamp64\www\isaa webpage\vendor\phpmailer/phpmailer/src/SMTP.php';
   
 $servername = "localhost";
 $username = "root";
-$password = "Gokul010#";
+$password = "DB_PASSWORD";
 $dbname = "nis";
 
 // Create connection
