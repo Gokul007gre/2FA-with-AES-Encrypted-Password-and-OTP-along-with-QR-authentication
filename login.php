@@ -83,7 +83,7 @@ $result = mysqli_query($conn, $sql2);
               $mail->Port = 465;
               $mail->Host = 'smtp.gmail.com';   
               $mail->Username = 'twofactor61@gmail.com';
-              $mail->Password = 'ysiawxkvvsqvxmxx';
+              $mail->Password = 'g_mail password';
               $mail->IsHTML(true);   
               $mail->setFrom('twofactor61@gmail.com');
               $mail->addReplyTo('twofactor61@gmail.com', 'Gokul VS');
