@@ -2,7 +2,7 @@
 require "C:\\wamp64\\www\\phpqrcode\\qrlib.php";
 $servername = "localhost";
 $username = "root";
-$password = "Gokul010#";
+$password = "DB_PASSWORD";
 $dbname = "nis";
 
 // Create connection
