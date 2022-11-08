@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Signup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link href="./dist/output.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="relative h-screen" onclick="onclick">
+        <img src="./img/5179440.jpg" alt="" class=" object-cover  h-full w-full">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="center flex box-content absolute inset-0 mt-10 mx-auto py-8 bg-white rounded-lg border-2 border-purple-600">
+            <div class="space-y-3 justify-center text-center mb-3">
+                <h2 class="text-4xl mb-10 ">Please Sign Up</h2>
+            </div>
+            <form name="signupform" method="post" action="signup.php">
+                <input type="username" name="username" placeholder="username">
+                <input type="email" name="email" placeholder="email" />
+                <input type="password" name="password" placeholder="password" />
+                <h2>&nbsp;</h2>
+                <input class="border border-purple-600 hover:bg-purple-600 hover:text-white transition-all" type="submit" name="Signup" value="Signup">
+            </form>
+            <a class="underline hover:text-purple-600 mt-5" href="index.html">Already have an account? Login instead?</a>
+        </div>
+    </div>
+    <!-- partial -->
+    <script src='https://codepen.io/banik/pen/3f837b2f0085b5125112fc455941ea94.js'></script>
+</body>
+
+</html>

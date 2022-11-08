@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="./dist/output.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+</head>
+
+<body class="w-full h-full" onload="color()">
+    <!-- partial:index.partial.html -->
+    <div class="relative h-screen" onclick="onclick">
+        <img src="./img/rm373batch4-15.jpg" alt="" class="object-cover w-full min-h-full">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="center box-content absolute items-center inset-0 mt-10 mx-auto py-5 h-full bg-white rounded-lg border-2 border-purple-600">
+            <div class="space-y-3 justify-center text-center mb-3">
+                <h1 class="text-4xl flex font-semibold text-purple-600">
+                    Hello There,<span class="animate-waving-hand">👋🏻</span>
+                </h1>
+                <h2 class="text-4xl ">Login</h2>
+            </div>
+
+            <form name="loginform" method="post" action="login.php">
+                <input type="email" placeholder="email" name="email" />
+                <input id="pass" type="password" placeholder="password" name="password" onkeydown=" //return value false" style="cursor:default;" value="" />
+                <h2>&nbsp;</h2>
+                <input class="hover:bg-purple-600 hover:text-white transition-all" type="submit" name="login" value="login">
+            </form>
+            <div id="1" class="mx-auto mt-10 py-3 px-2 text-2xl border-2 border-purple-600 grid grid-row-6 grid-cols-6">
+                <button class="row00 px-7 border hover:font-extrabold hover:border-black" value="A" onclick="input(this)">A</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="B" onclick="input(this)">B</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="C" onclick="input(this)">C</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black " value="D" onclick="input(this)">D</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="E" onclick="input(this)">E</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="F" onclick="input(this)">F</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="G" onclick="input(this)">G</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="H" onclick="input(this)">H</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="I" onclick="input(this)">I</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="J" onclick="input(this)">J</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="K" onclick="input(this)">K</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="L" onclick="input(this)">L</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="M" onclick="input(this)">M</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="N" onclick="input(this)">N</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="O" onclick="input(this)">O</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="P" onclick="input(this)">P</button>
+                <button class="row00 px-7border hover:font-extrabold  hover:border-black" value="Q" onclick="input(this)">Q</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="R" onclick="input(this)">R</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="S" onclick="input(this)">S</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="T" onclick="input(this)">T</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="U" onclick="input(this)">U</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="V" onclick="input(this)">V</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="W" onclick="input(this)">W</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="X" onclick="input(this)">X</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="Y" onclick="input(this)">Y</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="Z" onclick="input(this)">Z</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="0" onclick="input(this)">0</button>
+                <button class="row00 px-7border hover:font-extrabold  hover:border-black" value="1" onclick="input(this)">1</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="2" onclick="input(this)">2</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="3" onclick="input(this)">3</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="4" onclick="input(this)">4</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="5" onclick="input(this)">5</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="6" onclick="input(this)">6</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="7" onclick="input(this)">7</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="8" onclick="input(this)">8</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="9" onclick="input(this)">9</button>
+                <button class="row00 px-7 border hover:border-black" onclick="change_case()"><span id="sft"class="material-icons-outlined align-middle hidden md:inline-flex ">
+                    keyboard_capslock
+                    </span></button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="!" onclick="input(this)">!</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="@" onclick="input(this)">@</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="#" onclick="input(this)">#</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="$" onclick="input(this)">$</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="%" onclick="input(this)">%</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="^" onclick="input(this)">^</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="&" onclick="input(this)">&</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="*" onclick="input(this)">*</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value="(" onclick="input(this)">(</button>
+                <button class="row00 px-7 border hover:font-extrabold  hover:border-black" value=")" onclick="input(this)">)</button>
+                <button class="row00 px-7 border hover:border-black" value="bck" onclick="backspace()"><span class="material-icons-outlined align-middle hidden md:inline-flex">backspace</span></button>
+                </span>
+            </div>
+            <a class="py-3 underline hover:text-purple-600 " href="signup.html">Dont have an account? Signup?</a><label class="mx-auto">Login Directly through QR</label>
+            <a href="index2.php"><button class="mx-auto px-7 border-2 rounded-lg border-purple-600 hover:bg-purple-600 hover:text-white transition-all" >QR Login</button></a>
+        </div>
+    </div>
+    <!-- partial -->
+    <script src='https://codepen.io/banik/pen/3f837b2f0085b5125112fc455941ea94.js'></script>
+    <script type="text/javascript">
+        function color() {
+            var elem = document.getElementsByClassName("row00");
+            var arr = ["#C0C0C0", "#A9A9A9", "#A9A9A9", "#808080", "#9877C6", "#696969"];
+            for (let i = 0; i < elem.length; i++) {
+                var rand = arr[Math.floor(Math.random() * arr.length) | 0];
+                elem[i].style.backgroundColor = rand;
+            }
+
+        }
+
+        function change_case() {
+            var elem1 = document.getElementsByClassName("row00");
+            elem1[36].style.fontWeight = "900";
+            const leter = elem1[0].value;
+            if (leter.toUpperCase() == elem1[0].value) {
+                for (let i = 0; i < 26; i++) {
+                    const k = (elem1[i].value).toLowerCase();
+                    elem1[i].value = k;
+                    elem1[i].innerHTML = k;
+                }
+            } else {
+                for (let i = 0; i < 26; i++) {
+                    const k = (elem1[i].value).toUpperCase();
+                    elem1[i].value = k;
+                    elem1[i].innerHTML = k;
+                }
+
+            }
+
+        }
+
+        function backspace() {
+            var txt = document.getElementById("pass").value;
+            let len = txt.length;
+            document.getElementById("pass").value = txt.substring(0, len - 1);
+        }
+
+        function input(elemk) {
+            var value1 = elemk.value;
+            var txt = document.getElementById("pass").value;
+            var res = txt.concat(value1);
+            document.getElementById("pass").value = res;
+        }
+    </script>
+</body>
+
+</html>
